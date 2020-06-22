@@ -8,7 +8,7 @@ char *mx_strnew(const int size) {
     if (str == NULL) {
         return NULL;
     } else {
-        for (; i < size + 1; i++) {
+        for (int i = 0; i < size + 1; i++) {
             str[i] = '\0';
         }
     }
